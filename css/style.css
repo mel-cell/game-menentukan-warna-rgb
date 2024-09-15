@@ -1,7 +1,8 @@
 #color{
     width: 200px;
     height: 200px;
-    color: transparent;
+   /* color: transparent;*/
+    text-align: center;
 }
 .combine1{
     display: flex;
@@ -19,4 +20,22 @@
 }
 #benarsalah{
     width: 200px;
+}
+button{
+    width: 152px;
+}
+h1{
+    text-align: center;
+    margin: 0;
+}
+#guessedColor{
+    text-align: center;
+}
+#benarsalah{
+    text-align: center;
+    color: black;
+}
+p{
+    text-align: center;
+    margin-top: 0;
 }
