@@ -1,0 +1,22 @@
+#color{
+    width: 200px;
+    height: 200px;
+    color: transparent;
+}
+.combine1{
+    display: flex;
+    text-align: center;
+    gap: 19px;
+    
+}
+#guessedColor{
+    width: 200px;
+    height: 200px;
+}
+.combine2{
+    display: flex;
+    gap: 19px;
+}
+#benarsalah{
+    width: 200px;
+}

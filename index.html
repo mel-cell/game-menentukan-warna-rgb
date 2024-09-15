@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header_rgb">
+        <h1>welcome to guess rgb game</h1>
+    </div>
+    
+<div class="combine1">
+    <div class="color_random">
+        <label for="color">color; </label>
+        <input type="text" id="color" disabled> <br> <br>
+    </div>
+    <div class="keterangan_color">
+        <label for="guessedcolor">your color:</label>
+        <input type="text" name="" id="guessedColor" disabled> <br> <br>
+    </div>
+</div>
+<div class="combine2">
+    <div class="benarsalah">
+        <input type="text" name="" id="benarsalah" disabled>
+    </div>
+
+    <div class="tombol">
+        <button id="guessButton" onclick="checkGuess()">Submit Guess</button>
+    </div>
+
+    <div class="reset">
+        <button onclick="resetGame()">Reset Game</button>
+    </div>
+</div>
+
+    <div class="color_red">
+        <label for="merah">red:</label>
+        <input type="number" name="" id="merah" min="0" max="255"> <br><br>
+    </div>
+    <div class="color_green">
+        <label for="hijau">greean:</label>
+        <input type="number" name="" id="hijau" min="0" max="255"> <br><br>
+    </div>
+    <div class="color_blue">
+        <label for="biru">blue;</label>
+        <input type="number" name="" id="biru" min="0" max="255"> <br><br>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
